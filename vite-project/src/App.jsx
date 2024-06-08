@@ -1,5 +1,6 @@
 import { LikesCounter } from "./components/LikesCounter";
 import { Plot } from "./components/Plot";
+import { Form } from "./components/Form";
 
 function App() {
   console.log("<App> - render");
@@ -10,6 +11,7 @@ function App() {
       <h2>Rok produkcji: 1980</h2>
       <LikesCounter />
       <Plot />
+      <Form />
     </>
   );
 }
