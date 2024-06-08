@@ -1,7 +1,7 @@
 function App() {
-  // document.querySelector("button").addEventListener("click", () => {
-  //   alert("Klik");
-  // });
+  function handleClick() {
+    alert("Klik!");
+  }
 
   return (
     <>
@@ -9,7 +9,7 @@ function App() {
       <h2>Rok produkcji: 1980</h2>
       <h2>Fabuła</h2>
       <p>Dobrzy walczą ze złymi. Trzeba wyłączyć pole siłowe.</p>
-      <button>Pokaż spoiler</button>
+      <button onClick={handleClick}>Pokaż spoiler</button>
       <p>Vader okazuje się być ojcem Luka.</p>
     </>
   );
